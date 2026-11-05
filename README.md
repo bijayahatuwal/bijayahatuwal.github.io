@@ -1,2 +1,3 @@
-# bijayahatuwal.github.io
-Academic Personal Website
+# Bijaya Hatuwal
+
+**Website:** https://bijayahatuwal.github.io/

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bijaya Hatuwal | AI, ML, and Computer Vision Researcher</title>
+  <meta name="description" content="Bijaya Hatuwal — Ph.D. candidate in Computer Science at the University of Missouri researching data-efficient, knowledge-guided, and reliable AI for 3D, multi-channel, and multimodal data.">
+  <meta name="author" content="Bijaya Hatuwal">
+  <meta property="og:title" content="Bijaya Hatuwal | Academic Portfolio">
+  <meta property="og:description" content="Data-efficient, knowledge-guided, and reliable AI for volumetric and multimodal data.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bijayahatuwal.github.io/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23000000'/><text x='50' y='66' font-size='48' font-family='Georgia,serif' fill='%23ffffff' text-anchor='middle'>BH</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+  <!-- Icons: Font Awesome Free 6 (CC BY 4.0) https://fontawesome.com/license/free -->
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#top" class="brand">B. Hatuwal</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/cv/Hatuwal_CV.pdf" target="_blank" rel="noopener">CV</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="1.5" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22.5"/><line x1="1.5" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22.5" y2="12"/><line x1="4.6" y1="4.6" x2="6.4" y2="6.4"/><line x1="17.6" y1="17.6" x2="19.4" y2="19.4"/><line x1="4.6" y1="19.4" x2="6.4" y2="17.6"/><line x1="17.6" y1="6.4" x2="19.4" y2="4.6"/></g></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero container" id="about">
+      <div class="hero-photo">
+        <img src="assets/img/profile.jpg" alt="Bijaya Hatuwal" class="avatar"
+             onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+        <div class="avatar avatar-placeholder" aria-hidden="true" hidden>BH</div>
+      </div>
+      <div class="hero-text">
+        <p class="eyebrow">Ph.D. Candidate in Computer Science · University of Missouri</p>
+        <h1>Bijaya Hatuwal</h1>
+        <p class="role">AI, ML, and Computer Vision Researcher</p>
+        <p class="lede">
+          I develop <strong>data-efficient, knowledge-guided, and reliable AI</strong> for volumetric,
+          multi-channel, and multimodal data, with biomedical imaging as my primary testbed.
+        </p>
+        <p>
+          I am a final-year Ph.D. candidate in the Department of Electrical Engineering and Computer Science
+          at the University of Missouri, advised by Dr. Kannappan Palaniappan in the
+          <strong>CIVA Lab</strong>. My dissertation is on <em>Self-Supervised Learning for 3D Volume Segmentation</em>.
+          I am also a Graduate Teaching Assistant for undergraduate and graduate computer science courses.
+          Expected Ph.D.: <strong>May 2027</strong>.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#research">Explore my research</a>
+          <a class="btn" href="#contact">Get in touch</a>
+          <a class="btn" href="assets/cv/Hatuwal_CV.pdf" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 384 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM112 256l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>CV (PDF)</a>
+        </div>
+        <ul class="social">
+          <li><a href="#contact"><svg class="ico" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>Email</a></li>
+          <li><a href="https://scholar.google.com/citations?hl=en&amp;user=CpCkKTQAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M390.9 298.5c0 0 0 .1 .1 .1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z"/></svg>Google Scholar</a></li>
+          <li><a href="https://www.linkedin.com/in/bijaya-hatuwal-426ab9137/" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 448 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>LinkedIn</a></li>
+          <li><a href="https://github.com/bijayahatuwal" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 496 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Interests -->
+    <section class="section container">
+      <h2 class="section-title">Research Interests</h2>
+      <ul class="tags">
+        <li>Deep Learning</li>
+        <li>Computer Vision</li>
+        <li>Natural Language Processing (NLP)</li>
+        <li>Medical Image Segmentation</li>
+        <li>3D / Volumetric &amp; Aerial Image Analysis</li>
+        <li>Self- &amp; Weak-Supervised Learning</li>
+        <li>Knowledge-Guided Learning</li>
+        <li>Multimodal Learning &amp; Foundation Models</li>
+        <li>Generative AI</li>
+        <li>Computational Disease Modeling</li>
+        <li>Hybrid Quantum-Classical ML</li>
+      </ul>
+    </section>
+
+    <!-- ================= RESEARCH ================= -->
+    <section class="section section-alt" id="research">
+      <div class="container">
+        <h2 class="section-title">Research</h2>
+        <blockquote class="vision">
+          How can AI systems learn reliable representations of complex data when supervision is limited,
+          prior knowledge is available, and the structures of interest are small, sparse, or difficult to annotate?
+        </blockquote>
+        <p class="section-intro">
+          These are general machine learning problems: learning from limited and noisy supervision, combining
+          complementary inductive biases, transferring across data sources, and building efficient models.
+          Biomedical imaging is the demanding testbed where I study them; the methods are designed to extend to other
+          volumetric, multi-channel, and multimodal data in science and engineering.
+        </p>
+
+        <h3 class="sub-title">Selected Projects</h3>
+        <div class="projects">
+          <article class="project card">
+            <div class="project-head">
+              <span class="badge badge-done">Published · AIPR 2025</span>
+              <h4>HE3D-Net: 3D Ensembles &amp; Hybrid Models for Neonatal Brain Lesion Segmentation</h4>
+            </div>
+            <p>
+              A heterogeneous ensemble of 3D transformer-based and convolutional models for Hypoxic-Ischemic
+              Encephalopathy (HIE) diagnosis and lesion segmentation from multi-channel diffusion MRI
+              (BONBID-HIE 2024 Grand Challenge data), where lesions range from a few voxels to large regions.
+            </p>
+            <button class="expand" aria-expanded="false">Show details</button>
+            <div class="project-more" hidden>
+              <ul>
+                <li>A post-competition submission (thresholded ensemble output, multi-channel input) ranks
+                  <strong>1st overall</strong> (mean position 1.7) on the public test-phase leaderboard:
+                  Dice 0.670 (rank 1), NSD 0.774 (rank 1), MASD 2.685 (rank 3).
+                  <a href="https://bonbid-hie2024.grand-challenge.org/evaluation/test-phase-for-lesion-segmentation-task/leaderboard/" target="_blank" rel="noopener">View leaderboard ↗</a></li>
+                <li>Developed <strong>3D SDENet</strong> and a 2D+3D fusion in which classical image-processing features
+                  complement learned representations, yielding a simpler model with lower computational cost.</li>
+                <li>Zero-shot evaluation of medical foundation models (MedSAM2, SAM-Med3D) showed they did not generalize well to this data.</li>
+                <li><em>In progress:</em> extending SDENet to multimodal learning combining 3D MRI with clinical variables
+                  (field strength, age at scan, hypothermia, seizures).</li>
+              </ul>
+            </div>
+            <ul class="mini-tags"><li>3D Segmentation</li><li>Ensembles</li><li>Diffusion MRI</li><li>Hybrid Models</li></ul>
+          </article>
+
+          <article class="project card">
+            <div class="project-head">
+              <span class="badge badge-progress">Dissertation · In progress</span>
+              <h4>Joint 3D Blood &amp; Lymphatic Vessel Segmentation from Multi-Channel Microscopy</h4>
+            </div>
+            <p>
+              Self-supervised, supervised, and weakly supervised methods for simultaneous segmentation of thin,
+              branching blood and lymphatic vessels in 3D fluorescence microscopy of mouse dura mater, a relatively
+              uncommon dataset containing both vessel types.
+            </p>
+            <button class="expand" aria-expanded="false">Show details</button>
+            <div class="project-more" hidden>
+              <ul>
+                <li>Ensemble learning–based <strong>silver truth generation</strong> that reduces manual correction time by
+                  <strong>nearly 50%</strong> compared with the previous active-learning workflow.</li>
+                <li>Evaluated foundation models SAM-Med3D and VesselFM on this dataset.</li>
+                <li>Investigating Swin-UNETR and ensemble architectures for topologically complex, sparsely annotated volumes,
+                  with planned extension to other tubular structures.</li>
+                <li>Paper in preparation: <em>Colocalized 3D Blood and Lymphatic Microvasculature Networks Using Vision Transformers</em>.</li>
+              </ul>
+            </div>
+            <ul class="mini-tags"><li>Self-Supervised Learning</li><li>Vision Transformers</li><li>Microscopy</li><li>Label Efficiency</li></ul>
+          </article>
+
+          <article class="project card">
+            <div class="project-head">
+              <span class="badge badge-done">Published · EMI 2024</span>
+              <h4>Spatial Spread of Influenza A Virus in Commercial Swine Farms</h4>
+            </div>
+            <p>
+              With biology collaborators, analyzed genomic data on disease transmission and evolution, including
+              Bayesian phylogeographic analysis of Influenza A virus sequences across compartments in U.S. swine farms
+              (first author, <em>Emerging Microbes &amp; Infections</em>, 2024).
+            </p>
+            <ul class="mini-tags"><li>Computational Disease Modeling</li><li>Phylogeography</li></ul>
+          </article>
+        </div>
+
+        <h3 class="sub-title">Future Directions</h3>
+        <div class="tabs" role="tablist" aria-label="Research thrusts">
+          <button role="tab" aria-selected="true" aria-controls="thrust-1" id="tab-1" class="tab active">1 · Data-efficient &amp; knowledge-guided</button>
+          <button role="tab" aria-selected="false" aria-controls="thrust-2" id="tab-2" class="tab" tabindex="-1">2 · Multimodal &amp; foundation models</button>
+          <button role="tab" aria-selected="false" aria-controls="thrust-3" id="tab-3" class="tab" tabindex="-1">3 · Reliable &amp; efficient AI</button>
+        </div>
+        <div class="tab-panel card" role="tabpanel" id="thrust-1" aria-labelledby="tab-1">
+          <p>Learning algorithms that combine self-supervised representations, limited or noisy labels, and prior knowledge
+            such as intensity, texture, spatial relationships, and connectivity.</p>
+          <ul>
+            <li>When does each source of information improve generalization, and when does it introduce bias?</li>
+            <li>How can ensemble-based silver truth and pseudo-labeling reduce annotation cost without propagating errors on small structures?</li>
+            <li>Do priors work best as inputs, architectural components, or training constraints?</li>
+          </ul>
+        </div>
+        <div class="tab-panel card" role="tabpanel" id="thrust-2" aria-labelledby="tab-2" hidden>
+          <p>Joint representations from images, non-imaging variables, and molecular data, and parameter-efficient adaptation
+            of foundation models to 3D, multi-channel, and multimodal inputs.</p>
+          <ul>
+            <li>Modality imbalance: a high-dimensional image dominating a few informative variables.</li>
+            <li>Missing modalities, which are common in real data, and cross-modal alignment.</li>
+            <li>Longer term: vision-language models linking images with reports and metadata, with generalization tested on held-out data sources (e.g., TCIA, TCGA).</li>
+          </ul>
+        </div>
+        <div class="tab-panel card" role="tabpanel" id="thrust-3" aria-labelledby="tab-3" hidden>
+          <p>Uncertainty-aware prediction, distribution-shift detection, and evaluation reported across object size, data source,
+            and acquisition conditions, so users know when a prediction should be trusted.</p>
+          <ul>
+            <li>When can compact, hybrid models match larger ones at lower computational cost?</li>
+            <li>Deployment in resource-constrained settings.</li>
+            <li>Evaluating the reliability of generative models.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PUBLICATIONS ================= -->
+    <section class="section container" id="publications">
+      <h2 class="section-title">Publications</h2>
+      <p class="section-intro">Full list on <a href="https://scholar.google.com/citations?hl=en&amp;user=CpCkKTQAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener">Google Scholar</a>.</p>
+
+      <div class="pub-controls">
+        <div class="filters" role="group" aria-label="Filter publications">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="conference">Conference / Workshop</button>
+          <button class="filter" data-filter="journal">Journal</button>
+          <button class="filter" data-filter="first">First author</button>
+        </div>
+        <label class="search">
+          <span class="visually-hidden">Search publications</span>
+          <input type="search" id="pub-search" placeholder="Search title, venue, year…">
+        </label>
+      </div>
+
+      <ol class="pubs" id="pub-list"><!-- rendered by assets/js/main.js --></ol>
+      <p class="pub-empty" id="pub-empty" hidden>No publications match your search.</p>
+    </section>
+
+    <!-- ================= TEACHING ================= -->
+    <section class="section section-alt" id="teaching">
+      <div class="container">
+        <h2 class="section-title">Teaching</h2>
+        <p class="section-intro">
+          I am committed to hands-on, accessible teaching of core computing, AI, and data science courses, and to involving
+          undergraduate and graduate students in research.
+        </p>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3 class="card-title">Graduate Teaching Assistant</h3>
+            <p class="meta">Dept. of EECS, University of Missouri · Aug. 2024 – Present</p>
+            <ul class="course-list">
+              <li><span class="code">CMP_SC 4450/7450</span> Principles of Programming Languages <span class="term">Fall 2024, Fall 2025, Fall 2026</span></li>
+              <li><span class="code">CMP_SC 3330</span> Object-Oriented Programming <span class="term">Spring 2026</span></li>
+              <li><span class="code">CMP_SC 4320</span> Software Engineering I <span class="term">Spring 2025</span></li>
+            </ul>
+            <p class="small">Office hours, assignment design, and grading; guiding students through programming, software design, and core computational concepts.</p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Teaching Interests</h3>
+            <dl class="interests">
+              <dt>Undergraduate</dt>
+              <dd>Intro Programming (Python/Java), OOP, Data Structures, Programming Languages, Software Engineering, Databases, AI, ML, Deep Learning, Computer Vision, Image Processing</dd>
+              <dt>Graduate</dt>
+              <dd>Machine Learning, Deep Learning, Computer Vision, Image Processing, Data Science, Medical Image Analysis</dd>
+              <dt>New courses</dt>
+              <dd>Deep Learning for Medical Imaging · Foundation Models and Multimodal AI · Data-Efficient Machine Learning</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="section container" id="experience">
+      <h2 class="section-title">Education &amp; Experience</h2>
+      <div class="grid-2">
+        <div>
+          <h3 class="sub-title">Education</h3>
+          <ol class="timeline">
+            <li>
+              <span class="when">Expected May 2027</span>
+              <strong>Ph.D. in Computer Science</strong>
+              <span class="where">University of Missouri, Columbia, MO</span>
+              <span class="small">Advisor: Dr. Kannappan Palaniappan, CIVA Lab. Dissertation: <em>Self-Supervised Learning for 3D Volume Segmentation</em></span>
+            </li>
+            <li>
+              <span class="when">Dec. 2024</span>
+              <strong>M.S. in Computer Science</strong>
+              <span class="where">University of Missouri, Columbia, MO</span>
+            </li>
+            <li>
+              <span class="when">2018</span>
+              <strong>B.E. in Computer Engineering</strong>
+              <span class="where">Himalaya College of Engineering, Tribhuvan University, Nepal</span>
+            </li>
+          </ol>
+        </div>
+        <div>
+          <h3 class="sub-title">Research &amp; Industry</h3>
+          <ol class="timeline">
+            <li>
+              <span class="when">Aug. 2021 – Present</span>
+              <strong>Graduate Research Assistant</strong>
+              <span class="where">University of Missouri, Columbia, MO</span>
+              <span class="small">Deep learning for detection, segmentation, tracking, and volumetric analysis of biomedical images (CIVA Lab, EECS); genomic analysis of disease transmission and evolution with biologists.</span>
+            </li>
+            <li>
+              <span class="when">2020 – 2021</span>
+              <strong>Software Engineer</strong>
+              <span class="where">Cotiviti, Kathmandu, Nepal</span>
+              <span class="small">Data pipelines and reporting systems for U.S. health data (MS-SQL, SSIS, SSRS, Tableau).</span>
+            </li>
+            <li>
+              <span class="when">2019 – 2020</span>
+              <strong>Data Engineer</strong>
+              <span class="where">Impetus Incorporation Pvt. Ltd., Kathmandu, Nepal</span>
+            </li>
+            <li>
+              <span class="when">2019</span>
+              <strong>Associate Software Engineer</strong>
+              <span class="where">LIS Nepal Pvt. Ltd., Lalitpur, Nepal</span>
+              <span class="small">ETL and retail data-warehousing solutions.</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="grid-3 mt">
+        <div class="card">
+          <h3 class="card-title">Presentations</h3>
+          <ul class="plain">
+            <li><strong>Oral</strong>, HE3D-Net, AIPR 2025 (Medical &amp; Biomedical Imaging Track)</li>
+            <li><strong>Poster &amp; Flash Talk</strong>, American Society for Virology Workshop, Columbus, OH, 2024</li>
+            <li><strong>Oral &amp; Poster</strong>, 19th MICAI, Mexico City (virtual), 2020</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Service &amp; Leadership</h3>
+          <ul class="plain">
+            <li><strong>President</strong>, Nepalese Student Association (MUNSA), 2026 – Present</li>
+            <li><strong>Secretary</strong>, MUNSA, 2025 – 2026</li>
+            <li><strong>Vice President</strong>, EECS Graduate Student Association, 2024 – 2025</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Honors &amp; Training</h3>
+          <ul class="plain">
+            <li>EECS Departmental Travel Fellowship, 2025</li>
+            <li>IBM Road to Practitioner Program, 2026</li>
+            <li>IBM Quantum Computing Training (Qiskit)</li>
+            <li>FAA Part 107 Commercial Remote Pilot Certificate (sUAS)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card mt">
+        <h3 class="card-title">Technical Skills</h3>
+        <dl class="interests">
+          <dt>Programming</dt><dd>Python, Java, C/C++, SQL</dd>
+          <dt>Machine Learning</dt><dd>PyTorch, MONAI, scikit-learn, Vision Transformers, Swin Transformer, Ensembles, NLP, Self/Weak-Supervised Learning</dd>
+          <dt>Data &amp; Systems</dt><dd>ETL/ELT pipelines, MS-SQL/T-SQL, SSIS, SSRS, Tableau, GPU/HPC cluster computing</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact">
+        <h2 class="section-title">Contact</h2>
+        <p>I welcome conversations about research collaboration, teaching, and academic opportunities.</p>
+        <p class="email-line">
+          <span class="email-label"><svg class="ico" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></span><span class="email-text">bkhcty [at] missouri [dot] edu</span>
+          <button class="btn btn-small" id="reveal-email" type="button">Show clickable email</button>
+        </p>
+        <p class="small">Department of Electrical Engineering and Computer Science, University of Missouri, Columbia, MO</p>
+        <ul class="social">
+          <li><a href="https://scholar.google.com/citations?hl=en&amp;user=CpCkKTQAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M390.9 298.5c0 0 0 .1 .1 .1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z"/></svg>Google Scholar</a></li>
+          <li><a href="https://www.linkedin.com/in/bijaya-hatuwal-426ab9137/" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 448 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>LinkedIn</a></li>
+          <li><a href="https://github.com/bijayahatuwal" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 496 512" aria-hidden="true" focusable="false"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>GitHub</a></li>
+        </ul>
+        <p class="refs"><strong>References:</strong> available upon request.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Bijaya Hatuwal</p>
+      <p class="small">Last updated: November 2026 · <a href="#top">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
